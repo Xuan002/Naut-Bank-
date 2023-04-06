@@ -24,13 +24,23 @@
         <div class="alternative">
             <span>OR</span>
         </div>
-
+        
         <form action="">
+            <li>
             <label for="nome">
-                <span>Nome</span>
+                <span>Nome completo</span>
                 <input type="text" id="nome" name="nome">
             </label>
 
+            <label for="nascimento">
+                <span>Data de Nascimento</span>
+                <input type="date" id="campo_data">
+            </label>
+        </li>
+            <label for="telefone">
+                <span>Telefone</span>
+                <input type="text" id="campo_celular" placeholder="Apenas Números" maxlength="11">
+            </label>
             <label for="email">
                 <span>E-mail</span>
                 <input type="email" id="email" name="email">
@@ -38,14 +48,27 @@
 
             <label for="senha">
                 <span>Senha</span>
-                <input type="senha" id="senha" name="senha">
+                <input type="password" id="password" name="password">
+            </label>
+
+            <label for="RG">
+                <span>RG</span>
+                <input type="text" id="campo_rg" placeholder="Apenas Números" maxlength="11">
+            </label>
+
+            <label for="CPF">
+                <span>CPF</span>
+                <input type="text" id="campo_cpf" placeholder="Apenas Números" maxlength="11">
             </label>
 
             <input type="submit" value="Registrar" id="button">
         </form>
+    
     </main>
     <section class="images">
         <img src="imagens/saco de dinheiro" alt="">
         <div class="circle"></div></section>
+
+        <script src="script.js"></script>
 </body>
 </html>

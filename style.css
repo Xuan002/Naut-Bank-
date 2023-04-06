@@ -24,7 +24,7 @@ main {
 }
 
 main h1 {
-    color: #033c82;
+    color: #23b38d;
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -55,7 +55,7 @@ main .alternative {
 main .alternative span {
     font-size: 1.1rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.3);
+    color: #23b38d;
     position: relative;
 }
 
@@ -66,7 +66,7 @@ main .alternative span::before, main .alternative span::after {
     width: 100px;
     bottom: 50%;
     right: 50px;
-    background: rgba(255, 255, 255, 0.3);
+    background: #23b38d;
 }
 
 main .alternative span::after {
@@ -87,7 +87,7 @@ main form label {
 main form label span {
     font-size: 1.1rem;
     margin-top: 2rem;
-    color: #033c82;
+    color: #23b38d;
 }
 
 main form input {
@@ -109,7 +109,7 @@ main form input[type="submit"] {
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background: #033c82;
+    background: #23b38d;
     color: white;
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
@@ -119,36 +119,13 @@ main form input[type="submit"]:hover {
     background: #5952d4;
 }
 
-section.images {
-    width: 50vw;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 4rem;
-}
-
-section.images img {
-    width: 100%;
-}
 
 
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
-    section.images img {
-        width: 110%;
-    }
-
-    section.images .circle {
-        clip-path: circle(35% at right 80%);
-    }
 }
 
 @media only screen and (max-width: 900px) {
-    section.images {
-        display: none;
-        visibility: hidden;
-    }
-
     main {
         width: 100vw;
     }
