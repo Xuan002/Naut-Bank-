@@ -4,71 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecadastro.css">
     <title>Cadastro</title>
 </head>
 <body>
     <main>
-        <h1>Crie a sua Conta</h1>
-        <div class="social-media">
-            <a href="#">
-                <img src="imagens/google.png" alt="Google">
-            </a>
-            <a href="#">
-                <img src="imagens/facebook.png" alt="Facebook">
-            </a>
-            <a href="#">
-                <img src="imagens/linkedin.png" alt="Linkedin">
-            </a>
-        </div>
-        <div class="alternative">
-            <span>OR</span>
-        </div>
-        
-        <form action="">
-            <li>
-            <label for="nome">
-                <span>Nome completo</span>
-                <input type="text" id="nome" name="nome">
-            </label>
+        <div class="container">
+            <div class="title">Cadastro</div>
+            <div class="content">
+              <form id="cadform" action="#" onsubmit="confirm();"   >
+                <div class="user-details">
+                  <div class="input-box">
+                    <span class="details">Nome completo</span>
+                    <input type="text" placeholder="Coloque o seu Nome completo" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Data de Nascimento</span>
+                    <input id="date" type="date" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" name="email" placeholder="Coloque o seu Email" required>
+                    <div id="msgemail"></div>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Numero de Telefone</span>
+                    <input type="text" onkeypress="$(this) .mask ('(00) 00000-0000')" placeholder="(00) 00000-0000" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">RG</span>
+                    <input type="text" onkeypress="$(this) .mask('00.000.000-0') " placeholder="Digite o seu RG" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">CPF</span>
+                    <input type="text" onkeypress="$(this) .mask('000.000.000-00')" placeholder="Digite o seu CPF" required>
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Senha</span>
+                    <input type="password" name="senha" size="15" onchange="confereSenha()" placeholder="Digite a sua senha" required > 
+                  </div>
+                  
+                  <div class="input-box">
+                    <span class="details">Confirmar a sua senha</span>
+                    <input type="password" name="confirma" size="15" onchange="confereSenha()" placeholder="Confirme a sua senha" required>
+                  </div>
+                  
+                </div>
+                
+                <div class="button">
+                  <input id="btn-submit" type="submit" value="Cadastrar">
+                </div>
+                <div class="sign_up">
+                    Ja possui uma conta? <a href="login.html">Clique Aqui para Entrar!</a>
+                  </div>
 
-            <label for="nascimento">
-                <span>Data de Nascimento</span>
-                <input type="date" id="campo_data">
-            </label>
-        </li>
-            <label for="telefone">
-                <span>Telefone</span>
-                <input type="text" id="campo_celular" placeholder="Apenas Números" maxlength="11">
-            </label>
-            <label for="email">
-                <span>E-mail</span>
-                <input type="email" id="email" name="email">
-            </label>
-
-            <label for="senha">
-                <span>Senha</span>
-                <input type="password" id="password" name="password">
-            </label>
-
-            <label for="RG">
-                <span>RG</span>
-                <input type="text" id="campo_rg" placeholder="Apenas Números" maxlength="11">
-            </label>
-
-            <label for="CPF">
-                <span>CPF</span>
-                <input type="text" id="campo_cpf" placeholder="Apenas Números" maxlength="11">
-            </label>
-
-            <input type="submit" value="Registrar" id="button">
-        </form>
-    
-    </main>
-    <section class="images">
-        <img src="imagens/saco de dinheiro" alt="">
-        <div class="circle"></div></section>
-
+              </form>
+            </div>
+          </div>
         <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 </body>
 </html>
