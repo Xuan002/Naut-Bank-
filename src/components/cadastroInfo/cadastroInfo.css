@@ -1,5 +1,5 @@
 
-.loginInfo h1{
+.cadastroInfo h1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -8,7 +8,7 @@
     color: #000000;
 }
 
-.loginInfo h2 {
+.cadastroInfo h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -17,7 +17,7 @@
     color: #000000;
 }
 
-.loginInfo p {
+.cadastroInfo p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -26,14 +26,14 @@
     color: #000000;
 }
 
-.register {
+.login {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
 }
 
-.register a {
+.login a {
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
