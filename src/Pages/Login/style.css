@@ -1,110 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-  }
-  html,body{
-    display: grid;
-    height: 100vh;
-    place-items:center;
-    background: #0ba2b1;
-  }
-  .main_div{
-    width: 365px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  }
-  .main_div .title{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-  }
-  .main_div .social_icons{
-    margin-top: 20px;
+.mainLogin {
+    color: #E5E5E5;
     display: flex;
-    justify-content: center;
-  }
-  
-  form {
-    margin-top: 25px;
-  }
-  form .input_box{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    margin-top: 15px;
-  }
-  .input_box input{
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-    padding-left: 45px;
-    font-size: 17px;
-    transition: all 0.3s ease;
-  }
-  .input_box input:focus{
-    border-color: #0ba2b1;
-  }
-  .input_box .icon{
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    color: #0ba2b1;
-  }
-  form .option_div{
-    margin-top: 5px;
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-  }
-  .option_div .check_box{
-    display: flex;
-    align-items: center;
-  }
-  .option_div span{
-    margin-left: 5px;
-    font-size: 16px;
-    color: #333;
-  }
- 
-  .button input{
-    padding-left: 0;
-    background: #0ba2b1;
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s linear;
-  }
-  .button input:hover{
-    background: #0ba2b1;
-  }
-  form .sign_up{
-    text-align: center;
-    margin-top: 25px;
-  }
-  .sign_up a{
-    color: #0ba2b1;
-  }
-  form a{
-    text-decoration: none;
-  }
-  form a:hover{
-    text-decoration: underline;
-  }
+}
 
-  @media(max-width: 584px){
-    .main_div{
-     max-width: 100%;
-   }
-   }
-     @media(max-width: 459px){
-  
-     }
-   
+.LoginInfo {
+    margin-top: 10vw;
+    margin-left: 8vw;
+}
+
+.Login {
+    margin-top: 5vw;
+    margin-right: 8vw;
+}
+
+.Baleia {
+    position: absolute;
+    top: 240px;
+    left: 380px;
+    height: 34vw;
+}
