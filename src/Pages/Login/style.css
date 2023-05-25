@@ -1,0 +1,23 @@
+.mainLogin {
+    color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.LoginInfo {
+    margin-top: 10vw;
+    margin-left: 8vw;
+}
+
+.Login {
+    margin-top: 5vw;
+    margin-right: 8vw;
+}
+
+.Baleia {
+    position: absolute;
+    top: 240px;
+    left: 380px;
+    height: 34vw;
+}

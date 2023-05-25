@@ -1,24 +1,20 @@
+import LoginForm from "../../components/LoginForm";
+import LoginInfo from "../../components/LoginInfo";
+
 import "./style.css"
 
 const Login = () => {
-    return ( 
-        <div id="login">
-            <h1 className="title">Login</h1>
-            <form className="form">
-                <div className="fild">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" name="email" id="email" />
-                </div>
-                <div className="fild">
-                    <label htmlFor="password">Senha</label>
-                    <input type="password" name="password" id="password" />
-                </div>
-                <div className="actions">
-                    <button type="submit">Entrar</button>
-                </div>
-            </form>
-        </div>
-     );
+  return ( 
+    <div className="mainLogin">
+      <section className="LoginInfo">
+       <LoginInfo />
+       <img className="Baleia" src="src\assets\imagens\mocaSentada.jpg" alt="baleia do Naut'Bank" />
+      </section>
+      <section className="Login">
+        <LoginForm />
+      </section>
+    </div>
+   );
 }
  
 export default Login;
