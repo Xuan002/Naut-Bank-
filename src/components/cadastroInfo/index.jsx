@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import "./cadastroInfo.css"
-
 const CadastroInfo = () => {
     return ( 
         <div className="cadastroInfo">
@@ -8,7 +8,7 @@ const CadastroInfo = () => {
             <p>Se você tem uma conta</p>
             <div className="login">
                 <p>Você pode</p> 
-                <a href="">Entre aqui!</a>
+                <a><Link to="/">Entre aqui!</Link></a>
             </div>
         </div>
      );
