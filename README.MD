@@ -1,1 +1,0 @@
-é necessario npm install!!!
