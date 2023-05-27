@@ -22,8 +22,8 @@ const LoginForm = () => {
             <CampoTexto className="CampoSenha" type="password" placeholder="Digite a sua senha"/>
             <a><Link to="/cadastro">Esqueceu sua senha</Link></a>
             <Botao funcao={handleSubmit} texto="Entrar"/>
-            <p>ou continue com</p>
-            <RedesSocial/>
+           
+            
         </div>
      );
 }
