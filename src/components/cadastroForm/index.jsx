@@ -18,8 +18,7 @@ const CadastroForm = () => {
             <CampoTexto className="CampoTexto" type="text" placeholder="senha"/>
             <CampoTexto className="CampoTexto" type="text" placeholder="Confirme a senha"/>
             <Botao funcao={handleClick} texto="Registrar"/>
-            <p>ou continue com</p>
-            <RedesSocial/>
+           
         </div>
      );
 }

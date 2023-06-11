@@ -9,9 +9,13 @@ const Cadastro = () => {
         <CadastroInfo/>
         <img className="Baleia" src="src\assets\logo\logo-removebg-preview.svg" alt="baleia do Naut'Bank" />
       </section>
+
+    <div class="linha-vertical"></div>
+      <div class="container">
       <section className="Cadastro">
         <CadastroForm/>
       </section>
+      </div>
     </div>
    );
 }

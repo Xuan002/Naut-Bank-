@@ -45,3 +45,11 @@
     line-height: 24px;
     color: #B5B5B5;
 }
+
+@media(max-width: 320px){
+    
+    .cadastroForm .campoTexto{
+      max-width: 100%;
+      flex-direction: column;
+    }
+}
