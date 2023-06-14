@@ -9,7 +9,7 @@ const LoginForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            
+            navigate('/home')
         } catch (error) {
             console.log(error);
         }
