@@ -8,7 +8,7 @@ const Login = () => {
     <div className="mainLogin">
       <section className="LoginInfo">
        <LoginInfo />
-       <img className="Baleia" src="src\assets\logo\logo-removebg-preview.svg" alt="baleia do Naut'Bank"  />
+       <img className="Baleia" src="https://raw.githubusercontent.com/Xuan002/Naut-Bank-/main/src/assets/logo/logo-removebg-preview.svg" alt="baleia do Naut'Bank"  />
       </section>
 
       <div class="linha-vertical2"></div>
